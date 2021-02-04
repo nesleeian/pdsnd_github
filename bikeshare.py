@@ -34,7 +34,7 @@ def get_filters():
             
     """prompts user to enter a filter choice"""
     print("")
-    msg='How would you like to filter your data? By month, day, both or not filtered at all?\nPlease select/type one the choices: month, day, both, none'
+    msg='How would you like to filter your data?? By month, day, both or not filtered at all?\nPlease select/type one the choices: month, day, both, none'
     print(msg)
     global filter_choice
     date_entry_types=["month","day","both","none"]
